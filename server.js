@@ -2,6 +2,7 @@
 const express = require("express");
 const fs = require("fs");
 const path = require('path');
+const data = require("./db/db.json");
 
 //Initialize express app
 
@@ -25,13 +26,14 @@ app.get("/api/notes",(req, res) => {
 
 //post route
 
-app.post("api/notes",(req,res) => {
+app.post("/api/notes",(req,res) => {
     let newNote = req.body;
     fs.readFile("./db/db.json",function(err,data){
         if (err) {
             throw err;
         } else {
             let notes = JSON.parse(data);
+            notes.push(newNote);
             notes.forEach((item, i) => {
                 item.id = i+1;
             });
@@ -65,7 +67,7 @@ app.delete("./api/notes/:id",(req, res) => {
 });
 
 app.get("*",(req, res) => {
-    res.sendFile(path.json(__dirname,"./public/index.html"));
+    res.sendFile(path.join(__dirname,"./public/index.html"));
 });
 //  Setup listener
 
