@@ -12,6 +12,7 @@ Application provides the user to be able to write and save notes. User will be a
 * Screenshots
 * Link to Heroku
 * Tools used
+* Contact info
 
 ## Motivation 
 
@@ -57,3 +58,9 @@ This is an application that can be used to write, save, and delete notes. This a
 * Install express package https://www.npmjs.com/package/express
 * Install file system package https://www.npmjs.com/package/file-system
 * Deploy application in heroku https://signup.heroku.com/
+
+# contact information
+
+Name: Ramya Mariyala
+Email: ramya.mariyala@gmail.com
+[Github](https://github.com/Ramyamariyala/Express-note-taker.git)
