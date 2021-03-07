@@ -45,7 +45,7 @@ app.post("/api/notes",(req,res) => {
     });
 });
 
-app.delete("./api/notes/:id",(req, res) => {
+app.delete("/api/notes/:id",(req, res) => {
     let deleteId = req.params.id;
     fs.readFile("./db/db.json",function (err, data){
         if(err) {

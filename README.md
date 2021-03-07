@@ -61,6 +61,6 @@ This is an application that can be used to write, save, and delete notes. This a
 
 # contact information
 
-Name: Ramya Mariyala
-Email: ramya.mariyala@gmail.com
-[Github](https://github.com/Ramyamariyala/Express-note-taker.git)
+* Name: Ramya Mariyala
+* Email: ramya.mariyala@gmail.com
+* [Github](https://github.com/Ramyamariyala/Express-note-taker.git)
