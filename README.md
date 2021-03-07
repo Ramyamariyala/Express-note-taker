@@ -44,8 +44,8 @@ This is an application that can be used to write, save, and delete notes. This a
 
 # Screenshots
 
- ![capture1](public\assets\images\Capture2.PNG)
- ![capture2](public\assets\images\Capture1.PNG)
+![startpage](public/assets/images/Capture2.PNG)
+![notesdisplay](public/assets/images/Capture1.PNG)
 
 # Link to Heroku
 
