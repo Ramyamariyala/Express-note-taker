@@ -52,7 +52,7 @@ This is an application that can be used to write, save, and delete notes. This a
 [Deployed link to heroku](https://obscure-savannah-40907.herokuapp.com/)
 
 # Gif
-[gif](public/assets/images/gif.gif)
+[Express-Note-taker App](public/assets/images/gif.gif)
 
 # Tools
 
